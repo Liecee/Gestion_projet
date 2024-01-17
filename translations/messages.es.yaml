@@ -6,6 +6,8 @@ Etudiant: Estudiante
 Filiere: Rama
 User: Usuario
 Dashboard: Gestion de examenes
+Semestre: Semestre
+Enseignant: Profesor
 security:
   reset-password: Recuperar contraseña
   forgetten-password: Olbido mi contraseña 

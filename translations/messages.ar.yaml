@@ -4,6 +4,8 @@ Module: المادة
 Semestre: الأسدوس
 User: مستعمل
 Dashboard: تدبير الامتحانات
+Enseignant: أستاذ
+Note: النقط
 security:
   reset-password: استعادة كلمة المرور
   forgetten-password: نسيت كلمة السر 
