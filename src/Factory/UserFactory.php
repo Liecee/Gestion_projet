@@ -47,7 +47,7 @@ final class UserFactory extends ModelFactory
     protected function getDefaults(): array
     {
         return [
-            'email' => 'loic.salm8@gmail.com',
+            'email' => 'tiliouineliece@live.fr',
             'roles' => ['ROLE_ADMIN'],
             'password' => '$2y$13$w7usfxJhm1MP8qjT8TDNzOq.UuYWFuZszfwqX/agMwG8JeqWgacZ.',
             'username' => 'Admin',
