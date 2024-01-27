@@ -1,7 +1,7 @@
 Gestion des étudiants 
 
 
-L'application de gestion des étudiants est une plateforme destinée aux administrateurs pour faciliter la gestion des informations relatives aux étudiants, aux enseignants, aux modules, et bien plus encore.
+L'application de gestion des étudiants est une plateforme destinée aux administrateurs pour faciliter la gestion des informations relatives aux étudiants, aux enseignants, aux modules, et permet de regrouper les données des enseignants et des étudiants ainsi que des notes durant les trimestre de l'année.
 Fonctionnalités Principales
 
     Gestion des Étudiants : Ajoutez, modifiez et consultez les informations détaillées sur les étudiants, y compris leurs notes, leurs filières, et leur statut académique.
@@ -26,4 +26,4 @@ Ensuite effectuer un -symfony console cache:clear pour effacer le cache de l'app
 Cette commande est souvent exécutée lors du déploiement de l'application ou lors de modifications importantes.
 
 
-POur finir taper la commande - yarn run build cette commande va traiter les fichiers source, les compiler et les regrouper selon la configuration définie dans votre fichier webpack.config.js
+POur finir taper la commande - yarn run build cette commande va traiter les fichiers source, les compiler et les regrouper selon la configuration définie dans le fichier webpack.config.js 
