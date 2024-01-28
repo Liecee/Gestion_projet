@@ -14,7 +14,7 @@ Fonctionnalités Principales
 
 
 
-Voici quelque instructions pour l'installation de l'application : 
+Voici quelque instructions pour l'installation de l'application :                                
 
 - Cloner le projet GitHub sur sa machine en local 
 - Dans le fichier .env de la base de données et rajouter la variable DATABASE_URL (juste la ligne concerné ) et crée le nom de la base de données (ligne 25)
