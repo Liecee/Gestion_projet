@@ -17,9 +17,11 @@ Fonctionnalités Principales
 Voici quelque instructions pour l'installation de l'application : 
 
 - Cloner le projet GitHub sur sa machine en local 
-- Crée le fichier .env.local : et rajouter la variable DATABASE_URL
-- Crée la base de données : php bin/console doctrine:database:create
-
+- Crée le fichier .env.local : et rajouter la variable DATABASE_URL (juste la ligne concerné )
+- Taper la commande : composer require symfony/runtime
+- Crée la base de données et faire la migration : php bin/console d:d:c
+                                                : php bin/console doctrine:migrations:diff
+                                                : php bin/console doctrine:migrations:migrate
 Cette commande est utilisée pour créer la base de données. Elle prend les paramètres de connexion à la base de données à partir de votre configuration Symfony.
 
 Ensuite effectuer un -symfony console cache:clear pour effacer le cache de l'application Symfony.
