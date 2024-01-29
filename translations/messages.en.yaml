@@ -1,3 +1,10 @@
+ROLE_USER: Users
+ROLE_APOGE: APOGE
+ROLE_ADMIN: Administrator
+ROLE_PROF: Teacher
+ROLE_ETUD: Student
+ROLE_CHEF: Sector Admin
+
 Etudiants: Students
 Filieres: Sectors
 Users: Users
@@ -5,11 +12,6 @@ Etudiant: Student
 Filiere: Sector
 User: User
 Dashboard: Exams Management
-Semestre: Semester
-Module: Module
-Enseignant: Teacher
-Note: Grade
-
 security:
   reset-password: Reset Password
   forgetten-password: I forget my password 
